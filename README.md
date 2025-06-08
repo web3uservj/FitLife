@@ -6,13 +6,13 @@ A robust, modular Gym Management System developed using Java following the **Mod
 
 ## Project Architecture: MVC Pattern
 
-src/
-└── com/
-├── model/ # Data entities (Member, Trainer, Plan, etc.)
-├── dao/ # DAO classes for database operations
-├── service/ # Business logic (controller layer)
-├── ui/ # User Interface components
-└── util/ # Utility/helper classes
+src/                                                                                                                                                               
+└── com/                                                                                                                                                           
+├── model/ # Data entities (Member, Trainer, Plan, etc.)                                                                                                           
+├── dao/ # DAO classes for database operations                                                                                                                     
+├── service/ # Business logic (controller layer)                                                                                                                   
+├── ui/ # User Interface components                                                                                                                                
+└── util/ # Utility/helper classes                                                                                                                                 
 
 
 - **Model:** Represents the core data structures like `Member`, `Trainer`, `Package`, `Schedule`, and `Billing`.
@@ -69,7 +69,7 @@ Ensure your MySQL database is configured as per the schema requirements. Update 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/web3uservj/FitLife.git
-cd gym-management-system
+cd FitLife
 
 2. Configure MySQL Database
 Create the necessary tables using your preferred tool (MySQL Workbench, CLI, etc.)
