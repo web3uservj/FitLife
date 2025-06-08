@@ -1,10 +1,10 @@
-# 🏋️‍♂️ Gym Management System - Java MVC
+#  Gym Management System - Java MVC
 
 A robust, modular Gym Management System developed using Java following the **Model-View-Controller (MVC)** architectural pattern. This system supports multiple user roles including administrators, trainers, and members, with full separation of concerns across the data, logic, and presentation layers.
 
 ---
 
-## 🧱 Project Architecture: MVC Pattern
+## Project Architecture: MVC Pattern
 
 src/
 └── com/
@@ -21,19 +21,19 @@ src/
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 👨‍💼 Admin Module
+###  Admin Module
 - Add, update, view, or remove **members** and **trainers**
 - Manage **plans**, **packages**, and **billing**
 - View and organize **session schedules**
 
-### 🏋️ Trainer Module
+###  Trainer Module
 - Manage personal profile
 - View assigned members and schedules
 - Indicate availability
 
-### 🙋 Member Module
+###  Member Module
 - Register and manage user profile
 - Book sessions with trainers
 - Subscribe to gym packages
@@ -41,7 +41,7 @@ src/
 
 ---
 
-## 🗃️ Database Schema
+##  Database Schema
 
 The system connects to a **MySQL** database with tables for:
 
@@ -56,7 +56,7 @@ Ensure your MySQL database is configured as per the schema requirements. Update 
 
 ---
 
-## 🧰 Dependencies
+##  Dependencies
 
 - Java SE 11 or higher
 - MySQL Connector/J (JDBC driver)
@@ -64,7 +64,7 @@ Ensure your MySQL database is configured as per the schema requirements. Update 
 
 ---
 
-## 💻 Installation & Running the App
+##  Installation & Running the App
 
 ### 1. Clone the Repository
 ```bash
