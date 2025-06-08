@@ -70,17 +70,21 @@ Ensure your MySQL database is configured as per the schema requirements. Update 
 ```bash
 git clone https://github.com/web3uservj/FitLife.git
 cd FitLife
-
+```
 ### 2. Configure MySQL Database
+```bash
 Create the necessary tables using your preferred tool (MySQL Workbench, CLI, etc.)
 
 Update database connection details in com/dao classes.
+```
 
 ### 3. Compile and Run
+```bash
 javac com/ui/MainUI.java
 java com.ui.MainUI
-
+```
 ### Usage Examples
+```bash
 Admin Login
 === Main Menu ===
 1. Admin Login
@@ -101,8 +105,9 @@ Enter Trainer ID: 5
 Enter Session Date (yyyy-MM-dd): 2023-12-15  
 Enter Session Time (HH:mm): 14:30  
 Enter Duration in minutes: 60  
-
+```
 ### MVC Flow Example
+```bash
 View: MainUI displays menu and accepts user input
 
 Controller: MemberService processes the input and performs logic
@@ -110,8 +115,9 @@ Controller: MemberService processes the input and performs logic
 Model: MemberDAO persists data to MySQL
 
 View: Displays confirmation or error back to user
-
+```
 ### Best Practices Followed
+```bash
 Clean separation of concerns using MVC
 
 DAO Pattern for modular database interaction
@@ -123,12 +129,14 @@ Exception handling and input validation
 Consistent and clear naming conventions
 
 Easily extendable and maintainable structure
-
+```
 ### License
+```bash
 This project is licensed under the MIT License.
-
+```
 ### Author
+```bash
 Vijay M
 Java Developer | Web3 Enthusiast | Software Developer
 Feel free to connect or raise issues for improvements or contributions!
-
+```
