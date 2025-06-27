@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/ccd25f27-e2a0-41dc-b156-05c739a3dbcb)
+![Screenshot (16)](https://github.com/user-attachments/assets/18761a76-092e-46de-b926-8de2723b1516)
+
 #  Gym Management System - Java MVC
 
 A robust, modular Gym Management System developed using Java following the **Model-View-Controller (MVC)** architectural pattern. This system supports multiple user roles including administrators, trainers, and members, with full separation of concerns across the data, logic, and presentation layers.
